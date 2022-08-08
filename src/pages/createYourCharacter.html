@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="header_nav">
+        <ul class="nav_list">
+            <li class="nav_link" >
+                <a href="../Home.html">Home</a>
+            </li>
+            <li class="nav_link" >Create</li>
+        </ul>
+    </nav>
+    <header class="header">
+        <img src="https://fondosmil.com/fondo/29567.jpg" alt="" class="header_bg">
+        <h1 class="header_title">Create your character</h1>
+    </header>
+
+    <section class="form_container">
+        <h2 class="section_title">Create your character here</h2>
+        <form id="form">
+            <input type="text" id="URL_Photo" placeholder="Coloca la URL de tu imagen" class="input">
+            <input type="text" id="character_name" placeholder="Nombre de tu personaje" class="input">
+            <input type="text" id="character_power" placeholder="Poder de tu personaje" class="input">
+            <input type="text" id="character_price" placeholder="Precio de tu personaje" class="input">
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </section>
+
+    <section class="characters">
+        <h2 class="character_title">Your characters</h2>
+        <div class="img_container"></div>
+    </section>
+
+    <script src="./pages.js" type="module"></script>
+
+</body>
+</html>

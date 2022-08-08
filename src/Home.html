@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <nav class="header_nav">
+        <ul class="nav_list">
+            <li class="nav_link">Home</li>
+            <li class="nav_link" >
+                <a href="./pages/createYourCharacter.html">Create</a>
+            </li>
+            <div class="cart">
+                <ion-icon name="cart"></ion-icon>
+                <div class="quantity">0</div>
+            </div>
+            <div class="itemsCart"></div>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header-image">
+            <h1 class="header-title">Buy your character</h1>
+        </div>
+        <div class="overlay"></div>
+    </header>
+
+    <main class="main">
+        <div class="search">
+            <input type="text" id="search_input" placeholder="Search your character">
+        </div>
+        <div class="gif">
+            <img src="./src/assets/giphy.gif" alt="">
+        </div>
+        <div class="main-characters" id="main_characters"></div>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="./index.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
